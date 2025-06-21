@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  fetch('menu.html')
+  fetch('src/menu.html')
     .then(response => {
       if (!response.ok) throw new Error("Menu não encontrado!");
       return response.text();
