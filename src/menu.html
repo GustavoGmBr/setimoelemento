@@ -4,17 +4,91 @@
     <h4>Meu Menu</h4>
   </div>
   <ul class="nav nav-pills flex-column">
+    <!-- Início com submenu -->
     <li class="nav-item">
       <a class="nav-link" href="index.html">Início</a>
     </li>
+    <!-- Sobre com submenu -->
     <li class="nav-item">
-      <a class="nav-link" href="sobre.html">Sobre</a>
+      <a
+        class="nav-link"
+        data-bs-toggle="collapse"
+        href="#submenuSobre"
+        role="button"
+        aria-expanded="false"
+        aria-controls="submenuSobre"
+      >
+        Informações
+      </a>
+      <div class="collapse ps-3" id="submenuSobre">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="infos/continentes/sobre.html">Sobre o Mundo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre-equipe.html">Continentes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre-equipe.html">Raças E Criaturas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre-equipe.html">Ranques de Força</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre-equipe.html">Habilidades e Magias</a>
+          </li>
+        </ul>
+      </div>
     </li>
+
+    <!-- Projetos com submenu -->
     <li class="nav-item">
-      <a class="nav-link" href="projetos.html">Projetos</a>
+      <a
+        class="nav-link"
+        data-bs-toggle="collapse"
+        href="#submenuProjetos"
+        role="button"
+        aria-expanded="false"
+        aria-controls="submenuProjetos"
+      >
+        Personagens
+      </a>
+      <div class="collapse ps-3" id="submenuProjetos">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="projetos.html">Projetos Ativos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projetos-antigos.html"
+              >Projetos Concluídos</a
+            >
+          </li>
+        </ul>
+      </div>
     </li>
+
+    <!-- Contato com submenu -->
     <li class="nav-item">
-      <a class="nav-link" href="contato.html">Contato</a>
+      <a
+        class="nav-link"
+        data-bs-toggle="collapse"
+        href="#submenuContato"
+        role="button"
+        aria-expanded="false"
+        aria-controls="submenuContato"
+      >
+        Capitulos
+      </a>
+      <div class="collapse ps-3" id="submenuContato">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Fale Conosco</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato-suporte.html">Suporte</a>
+          </li>
+        </ul>
+      </div>
     </li>
   </ul>
 </nav>
